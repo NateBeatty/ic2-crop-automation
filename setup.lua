@@ -27,7 +27,7 @@ end
 if #args >= 2 then
     repo = args[2]
 else
-    repo = 'https://raw.githubusercontent.com/DylanTaylor1/ic2-crop-automation/'
+    repo = 'https://raw.githubusercontent.com/NateBeatty/ic2-crop-automation/'
 end
 
 -- INSTALL
