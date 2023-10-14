@@ -45,7 +45,7 @@ local function checkChild(slot, crop)
 
         elseif crop.name == targetCrop then
             local stat = crop.gr + crop.ga - crop.re
-            if crop.gr == 21 and crop.ga == 31 and crop.re == 0 then
+            if crop.gr == 23 and crop.ga == 31 and crop.re == 0 then
 
                 -- Make sure no parent on the working farm is empty
                 if findEmpty() and crop.gr <= config.workingMaxGrowth and crop.re <= config.workingMaxResistance then
